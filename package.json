@@ -1,0 +1,26 @@
+{
+  "name": "codoon-rn-cli",
+  "version": "0.0.1",
+  "description": "自动生成rn入口文件和上传权限文件",
+  "main": "./bin/codoon-rn.js",
+  "bin": {
+    "codoon-rn": "./bin/codoon-rn.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rn"
+  ],
+  "author": "JerryShen (shenjw@codoon.com)",
+  "license": "MIT",
+  "dependencies": {
+    "ali-oss": "4.10.0",
+    "chalk": "^2.4.1",
+    "co": "4.6.0",
+    "commander": "^2.18.0",
+    "fs-extra": "^7.0.0",
+    "inquirer": "^6.2.0",
+    "lodash": "^4.17.11"
+  }
+}
