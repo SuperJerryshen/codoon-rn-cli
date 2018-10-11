@@ -1,6 +1,6 @@
 {
   "name": "codoon-rn-cli",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "自动生成rn入口文件和上传权限文件",
   "main": "./bin/codoon-rn.js",
   "bin": {
