@@ -5,12 +5,22 @@
 ## 安装
 
 ```bash
+# 局部安装
+
+npm install --save codoon-rn-cli
+
+yarn add codoon-rn-cli
+
+# 全局安装
+
 npm install -g codoon-rn-cli
 
 yarn global add codoon-rn-cli
 ```
 
 ## 使用
+
+### 通过命令行开始
 
 ```bash
 # 本地开始项目
@@ -26,7 +36,24 @@ codoon-rn build
 codoon-rn upload
 ```
 
+### 通过 npm scripts 开始
+
+需在本地安装`codoon-rn-cli`后，在`package.json`中添加以下`scripts`代码。
+
+```json
+{
+  "scripts": {
+    "start": "codoon-rn start",
+    "build": "codoon-rn build",
+    "change-page": "codoon-rn select",
+    "upload": "codoon-rn upload"
+  }
+}
+```
+
 ## 配置
+
+> 注意：配置文件都是位于根目录下的。
 
 ### page.config.json（不可缺少）
 
