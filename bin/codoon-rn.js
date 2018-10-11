@@ -5,7 +5,7 @@ const program = require('commander');
 // 全局注入lodash
 global._ = require('lodash');
 
-program.version('0.0.1');
+program.version(require('../package.json').version);
 
 // 开始运行项目
 program.command('start').action(require('../lib/start'));
