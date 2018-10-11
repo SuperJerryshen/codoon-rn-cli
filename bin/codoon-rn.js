@@ -1,10 +1,9 @@
 #!/usr/bin/env node
 
 const program = require('commander');
-const path = require('path');
-const fs = require('fs');
 
-const log = console.log;
+// 全局注入lodash
+global._ = require('lodash');
 
 program.version('0.0.1');
 
