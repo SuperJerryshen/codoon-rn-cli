@@ -7,6 +7,9 @@ global._ = require('lodash');
 
 program.version(require('../package.json').version);
 
+// 初始化page配置
+program.command('init').action(require('../lib/init'));
+
 // 开始运行项目
 program.command('start').action(require('../lib/start'));
 
